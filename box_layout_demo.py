@@ -17,5 +17,6 @@ class BoxLayoutDemo(App):
         self.root.ids.input_name.text = ""
         self.root.ids.output_label.text = ""
 
+
 if __name__ == '__main__':
     BoxLayoutDemo().run()
