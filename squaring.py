@@ -29,5 +29,5 @@ class SquareNumberApp(App):
         except ValueError:
             pass
 
-
-SquareNumberApp().run()
+if __name__ == '__main__':
+    SquareNumberApp().run()
