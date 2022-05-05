@@ -14,6 +14,7 @@ __author__ = 'Lindsay Ward'
 
 class SquareNumberApp(App):
     """ SquareNumberApp is a Kivy App for squaring a number """
+
     def build(self):
         """ build the Kivy app from the kv file """
         Window.size = (200, 100)
@@ -30,4 +31,5 @@ class SquareNumberApp(App):
             pass
 
 
-SquareNumberApp().run()
+if __name__ == '__main__':
+    SquareNumberApp().run()
