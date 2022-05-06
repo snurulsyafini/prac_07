@@ -30,6 +30,6 @@ class SquareNumberApp(App):
         except ValueError:
             pass
 
-
+          
 if __name__ == '__main__':
     SquareNumberApp().run()
